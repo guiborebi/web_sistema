@@ -1,0 +1,27 @@
+create table tb_usuarios(
+    usu_id int not null primary key auto_increment,
+    usu_nome varchar(50) not null,
+    usu_usuario varchar(25) not null,
+    usu_senha varchar(25) not null
+);
+
+create table tb_cadastros(
+    cad_id int not null primary key auto_increment,
+    cad_tipo text not null,
+    cad_cpfcnpj text not null,
+    cad_nome text not null,
+    cad_nfantasia text,
+    cad_logradouro text,
+    cad_numero text,
+    cad_bairro text,
+    cad_cidade text,
+    cad_estado text,
+    cad_cep text,
+    cad_email text,
+    cad_fone1 text,
+    cad_fone2 text,
+    cad_icomplementares text
+)
+
+
+//utilizar na criação do BD: utf8_unicode_ci

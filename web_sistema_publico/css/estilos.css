@@ -1,0 +1,156 @@
+.custom-navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Cor e espessura da borda inferior */
+}
+
+html,
+body {
+height: 100%;
+}
+
+#logoBackground {
+position:absolute;
+max-width: 15%;
+height: auto;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 10%;
+}
+
+.form-signin {
+max-width: 330px;
+padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+z-index: 2;
+}
+
+.form-signin input[type="email"] {
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+margin-bottom: 20px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+.centered {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btnAbrirEditar {
+border: none;
+background-color: transparent;
+}
+
+.btnAbrirEditar:hover {
+border: none;
+background-color: transparent;
+color:darkgreen;
+}
+
+.dadosConsulta {
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+.modal-body h6 {
+display: inline-block;
+margin-right: 5px;
+margin-bottom: 15px;
+}
+
+.modal-body p {
+display: inline-block;
+text-align: justify;
+}
+
+.toast-body, .toast-header {
+color: white;
+}
+
+.alertaOK {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  left: 5px;
+  right: 5px;
+  margin: 0 auto;
+  max-width: calc(100% - 10%);
+}
+
+.alertaERRO {
+  display: none;
+  position: fixed;
+  bottom: 5%;
+  left: 5px;
+  right: 5px;
+  margin: 0 auto;
+  max-width: calc(100% - 10%);
+}
+
+.btn-close-white {
+opacity: 100%;
+}
+
+#msg-cad-sucesso {
+width: auto;
+margin-top: 10px;
+color: rgb(0, 152, 61);
+background-color: rgba(0, 255, 102, 0.2);
+border-radius: 3px;
+}
+
+.msg-cad-erro {
+width: auto;
+margin-top: 10px;
+color: rgb(230, 0, 0);
+background-color: rgba(255, 0, 0, 0.1);
+border-radius: 3px;
+}
+
+.msg-login-erro {
+  width: auto;
+  margin-top: 10px;
+  color: rgb(230, 0, 0);
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 3px;
+  }
+
+.ajuste-form {
+margin-top: -20px;
+}
+
+.tcad_usu {
+  font-size:14px;
+  color:rgb(70, 70, 70);
+}
+
+.lcad_usu {
+  font-size:13px;
+  color:rgb(70, 70, 70);
+  text-decoration: none;
+  color:rgb(25, 135, 84);
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+}
+
+.lcad_usu:hover {
+  font-size:13px;
+  text-decoration: none;
+  color:rgb(25, 135, 84);
+  background-color: rgba(25, 135, 84, 0.2);
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+  transition: 0.5s;
+}
