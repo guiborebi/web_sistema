@@ -18,3 +18,4 @@ Este projeto é o início de um sistema web que foi desenvolvido com o propósit
 - PHP
 - HTML
 - CSS
+- Banco de Dados MySQL
